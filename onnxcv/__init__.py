@@ -1,1 +1,1 @@
-from .object_detection import ObjectDetector
+from .object_detector import ObjectDetector
