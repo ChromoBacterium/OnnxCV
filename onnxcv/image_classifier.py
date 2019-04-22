@@ -31,13 +31,13 @@ class ImageClassifier:
 
             # Starting the session
             sess = rt.InferenceSession(self.model)
-            X = sess.get_inputs()[0].shape
-            X = list(filter(X[0], X))
-            shape = tuple(X)
 
             # Resizing data
+            shape = sess.get_inputs()[0].shape
+            shape.pop(0)
+            shape = tuple(shape)
             X = np.array(img)
-            X = resize(X, shape)
+            X = resize(X / 255.0, shape)
             X = X[np.newaxis, :, :, :]
             X = X.astype(np.float32)
 
