@@ -19,7 +19,7 @@ from  onnxcv import ImageClassifier
 clf = ImageClassifier('resnet18v1.onnx')
 clf.run()
 ```
-clf.run() initiates the device camera to show a visual output. The camera data will then be converted into the model compatible array to allow the model to make predictions. The predictions are arrays that are shown in the terminal.
+`clf.run()` initiates the device camera to show a visual output. The camera data will then be converted into the model compatible array to allow the model to make predictions. The predictions are arrays that are shown in the terminal.
 
 # To Do:
   - Finish documentation (ETA: 1 day)
