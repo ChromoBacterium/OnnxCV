@@ -11,7 +11,7 @@ To learn more about OpenCV, go to their repo [here](https://github.com/opencv/op
 Install ONNXCV by invoking the following command in a terminal or command prompt:
 `pip install onnxcv`
 
-Create a new directory and download [ResNet](https://s3.amazonaws.com/onnx-model-zoo/resnet/resnet18v1/resnet18v1.onnx).
+Create a new directory and download the [ResNet](https://s3.amazonaws.com/onnx-model-zoo/resnet/resnet18v1/resnet18v1.onnx) model.
 Copy and paste the following script in your code:
 
 ```python
