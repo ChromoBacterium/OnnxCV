@@ -1,5 +1,5 @@
 # ONNXCV
-Pre-release (Not yet done)
+Alpha release
 
 # Welcome to ONNXCV
 Welcome to OnnxCV! OnnxCV (**O**pen **N**eural **N**etwork **E**xchange Runtime for **C**omputer **V**ision) is an inference engine for computer vision, built upon [ONNX Runtime](https://github.com/Microsoft/onnxruntime) and OpenCV.
@@ -7,6 +7,18 @@ Welcome to OnnxCV! OnnxCV (**O**pen **N**eural **N**etwork **E**xchange Runtime 
 To learn more about ONNX, go to their Github repo [here](https://github.com/onnx/onnx) or their website [here](https://onnx.ai/).
 To learn more about OpenCV, go to their repo [here](https://github.com/opencv/opencv) or their website [here](https://opencv.org/).
 
+# Quickstart
+Install ONNXCV by invoking the following command in a terminal or command prompt:
+`pip install onnxcv`
+
+Create a new directory and download [ResNet](https://s3.amazonaws.com/onnx-model-zoo/resnet/resnet18v1/resnet18v1.onnx).
+Copy and paste the following script in your code:
+
+```python
+from  onnxcv import ImageClassifier
+clf = ImageClassifier('resnet18v1.onnx')
+clf.run()
+```
 
 # To Do:
   - Finish documentation (ETA: 1 day)
