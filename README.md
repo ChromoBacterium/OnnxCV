@@ -1,5 +1,5 @@
 # ONNXCV
-Alpha release
+Pre-release (Not yet done)
 
 # Welcome to OnnxCV
 Welcome to OnnxCV! OnnxCV (**O**pen **N**eural **N**etwork **E**xchange Runtime for **C**omputer **V**ision) is an inference engine for computer vision, built upon [ONNX Runtime](https://github.com/Microsoft/onnxruntime) and OpenCV.
