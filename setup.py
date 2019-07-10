@@ -18,5 +18,5 @@ setup(
     description="An ONNX inference engine for computer vision",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url="https://github.com/ChromoBacterium/OnnxCV"
+    url="https://github.com/ayaz-amin/OnnxCV"
 )
