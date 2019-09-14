@@ -1,3 +1,6 @@
+# Disclaimer
+OnnxCV is no longer in development due to personal work. Feel free to fork this repository anytime.
+
 # ONNXCV
 Alpha release
 
